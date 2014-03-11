@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Uqppa_CustomerReferral>
+			<active>true</active>
+			<codePool>local</codePool>
+			<depends>
+                <Mage_Customer /><!-- your module should depend on Mage_Customer -->
+                <Mage_Adminhtml /><!-- your module should depend on Mage_Adminhtml also -->
+            </depends>
+		</Uqppa_CustomerReferral>
+	</modules>
+</config>
